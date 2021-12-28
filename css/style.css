@@ -1,0 +1,47 @@
+body{
+    background: url("/image/fondo.jpg");
+}
+h1.Titulo{
+    background-color: darkblue;
+    color: white;
+    font-family: -webkit-pictograph;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin: auto;
+    margin-left: 296px;
+    margin-right: 296px;
+    margin-block-end: 5PX;
+}
+.card{
+    display: flex;
+}
+table{
+    margin: auto;
+    align-items: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: gray;
+    color: white;
+    padding: 14px;
+    border:solid black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+td{
+    color: dark;
+    padding: 14px;
+    border:solid black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+th.delete{
+    background-color: red;
+}
+th.modificate{
+    background-color: rgb(13, 221, 58)
+}
+input.update{
+    border: 0px;
+    background-color: rgb(13, 221, 58);
+}
+
